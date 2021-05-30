@@ -1,6 +1,6 @@
 {
 	"name": "json2type",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "",
 	"main": "dist/index.js",
 	"types": "dist/types/index.d.ts",
@@ -37,13 +37,13 @@
 		"prettier": "^2.3.0"
 	},
 
-  "homepage": "https://github.com/isaacs/yallist#readme",
+  "homepage": "https://github.com/asyalas/json2type#readme",
   
   "bugs": {
-    "url": "https://github.com/isaacs/yallist/issues"
+    "url": "https://github.com/asyalas/json2type/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isaacs/yallist.git"
+    "url": "git+https://github.com/asyalas/json2type.git"
   }
 }
