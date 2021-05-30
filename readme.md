@@ -47,7 +47,7 @@ json2type({
 // 测试number
 export type B = number;
 ```
-[复杂的示例](https://github.com/asyalas/json2type/tests/rap2type1.test.ts)
+[复杂的示例](https://github.com/asyalas/json2type/blob/master/tests/rap2type1.test.ts)
 
 ## API
 

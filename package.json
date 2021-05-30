@@ -1,65 +1,39 @@
 {
-  "_from": "json2type",
-  "_id": "json2type@0.0.4",
-  "_inBundle": false,
-  "_integrity": "sha512-rz8LMb81dtU7EvMXfqe4974eT0mWGIWnoAGGYt4KZXBvjJvnnJPe/MuE9vO38PL5+ArURglUY90Z7KvtTLpF2A==",
-  "_location": "/json2type",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "json2type",
-    "name": "json2type",
-    "escapedName": "json2type",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/json2type/-/json2type-0.0.4.tgz",
-  "_shasum": "ffca339ccb9ead7cd34a843ea546373e6d113953",
-  "_spec": "json2type",
-  "_where": "/Users/yangailin/Desktop/company/partner/node_modules/dependency-cruiser",
-  "author": "",
-  "bundleDependencies": false,
-  "dependencies": {
-    "prettier": "^2.3.0"
-  },
-  "deprecated": false,
-  "description": "json2type",
-  "devDependencies": {
-    "@types/isomorphic-fetch": "^0.0.35",
-    "@types/jest": "^26.0.22",
-    "cross-env": "^7.0.3",
-    "rimraf": "^3.0.2",
-    "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.30.0",
-    "ts-jest": "^26.5.4",
-    "tslib": "^2.1.0",
-    "typescript": "^4.2.3"
-  },
-  "keywords": [
-    "rap",
-    "typescript",
-    "rap2type",
-    "json2type"
-  ],
-  "license": "ISC",
-  "main": "dist/index.js",
-  "name": "json2type",
-  "scripts": {
-    "build": "npm run rimraf && rollup -c",
-    "release": "npm run rimraf && cross-env NODE_ENV=production rollup -c",
-    "rimraf": "rimraf dist types",
-    "test": "jest --coverage",
-    "watch": "npm run rimraf && rollup -c -w"
-  },
-  "types": "dist/types/index.d.ts",
-  "version": "0.0.4"
+	"name": "json2type",
+	"version": "0.0.5",
+	"description": "",
+	"main": "dist/index.js",
+	"types": "dist/types/index.d.ts",
+	"scripts": {
+		"rimraf": "rimraf dist types",
+		"test": "jest --coverage",
+		"build": "npm run rimraf && rollup -c",
+		"watch": "npm run rimraf && rollup -c -w",
+		"release": "npm run rimraf && cross-env NODE_ENV=production rollup -c"
+	},
+	"author": "",
+	"license": "ISC",
+	"keywords": [
+		"rap",
+		"typescript",
+		"rap2type",
+		"json2type"
+	],
+	"devDependencies": {
+		"@types/isomorphic-fetch": "^0.0.35",
+		"@types/jest": "^26.0.22",
+		"cross-env": "^7.0.3",
+		"rimraf": "^3.0.2",
+		"rollup-plugin-babel": "^4.4.0",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-terser": "^7.0.2",
+		"rollup-plugin-typescript2": "^0.30.0",
+		"ts-jest": "^26.5.4",
+		"tslib": "^2.1.0",
+		"typescript": "^4.2.3"
+	},
+	"dependencies": {
+		"prettier": "^2.3.0"
+	}
 }
